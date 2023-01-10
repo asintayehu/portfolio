@@ -9,6 +9,18 @@ body{
     --primary-text: #594545;
     --background-primary: #FFF8EA;
     --secondary-text: #815B5B;
-
+    --transition: all 400ms ease;
+    --white: #ffffff;
 
 }
+
+::-webkit-scrollbar{
+    display: none; /* No scroll bar */
+}
+
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition);
+   }
