@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import Typewriter from 'typewriter-effect'
-import Me from "./images/Insert_image_here.svg.png"
+import Me from "../images/Insert_image_here.svg.png"
 import {BsFillSunFill} from 'react-icons/bs'
 
 
@@ -52,15 +52,15 @@ const Header = () => {
         </div>
 
         <div className="container_self__description">
-          <h1 className='self__description'>A designer who pushes boundaries and seeks innovative solutions.
-            
+
+          <h1 className='self__description'>A developer who pushes boundaries and seeks innovative solutions.
           {/* <Typewriter 
               onInit={(typewriter) =>{
-                typewriter.pauseFor(7000).typeString("A designer who pushes boundaries and seeks innovative solutions.").start();
+                typewriter.pauseFor(9000).typeString("A designer who pushes boundaries and seeks innovative solutions.").start();
               }}/> */}
-              
-              </h1>
+          </h1>
         </div>
+
       </div>
 
     </>

@@ -5,6 +5,14 @@ body{
   font-weight: 600;
 }
 
+#light{
+  background-color: var(--background-primary);
+}
+
+#dark{
+  background-color: var(--secondary-text);
+}
+
 :root{
   --primary-text: #594545;
   --background-primary: #FFF8EA;
